@@ -1,0 +1,9 @@
+Metric,Value,Meaning
+Total Analyzed Members,"2,000",All synthetic members across 10 benchmark pools
+Members with >= 1 Feasible Candidate (N),720,36.0% of the population has at least one verified candidate
+Members with Zero Feasible Candidates,"1,280",64.0% have 0 confirmed candidates under strict current information
+Members with >= 1 Potential Candidate (including Uncertain),874,43.7% could have candidates if unasked fields are clarified
+Mean Candidates per Member,0.99,Average candidate degree across all members
+Median Candidates per Member,0.0,Median candidate degree
+Max Candidates for a Single Member,17,Highest degree observed
+Min Candidates for a Single Member,0,Lowest degree observed

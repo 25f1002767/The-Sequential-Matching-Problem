@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 420" width="100%" height="100%" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #ffffff;">
+  <rect width="750" height="420" fill="#ffffff" rx="8"/>
+  <text x="80" y="32" font-size="16" font-weight="700" fill="#0f172a">Policy Benchmark: Mutual Acceptances per 100 Members</text>
+  <text x="80" y="50" font-size="12" fill="#64748b">Evaluated across 120 episodes (6 scenario families, 5 seeds per scenario)</text>
+  <line x1="80" y1="350.0" x2="710" y2="350.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="354.0" font-size="11" fill="#64748b" text-anchor="end">0.0</text>
+  <line x1="80" y1="294.0" x2="710" y2="294.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="298.0" font-size="11" fill="#64748b" text-anchor="end">1.2</text>
+  <line x1="80" y1="238.0" x2="710" y2="238.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="242.0" font-size="11" fill="#64748b" text-anchor="end">2.5</text>
+  <line x1="80" y1="182.0" x2="710" y2="182.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="186.0" font-size="11" fill="#64748b" text-anchor="end">3.7</text>
+  <line x1="80" y1="126.0" x2="710" y2="126.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="130.0" font-size="11" fill="#64748b" text-anchor="end">5.0</text>
+  <line x1="80" y1="70.0" x2="710" y2="70.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="74.0" font-size="11" fill="#64748b" text-anchor="end">6.2</text>
+  <line x1="80" y1="70" x2="80" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="80" y1="350" x2="710" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="158.0" y="106.52173913043475" width="60" height="243.47826086956525" fill="#1e3a8a" rx="3">
+    <title>V2.2 Policy: 5.42</title>
+  </rect>
+  <text x="188.0" y="100.52173913043475" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">5.4</text>
+  <text x="188.0" y="368" font-size="11" fill="#334155" text-anchor="middle">V2.2 Policy</text>
+  <rect x="296.0" y="117.30306433499118" width="60" height="232.69693566500882" fill="#3b82f6" rx="3">
+    <title>Greedy Baseline: 5.18</title>
+  </rect>
+  <text x="326.0" y="111.30306433499118" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">5.2</text>
+  <text x="326.0" y="368" font-size="11" fill="#334155" text-anchor="middle">Greedy Baseline</text>
+  <rect x="434.0" y="121.795283170223" width="60" height="228.204716829777" fill="#1e3a8a" rx="3">
+    <title>Random Baseline: 5.08</title>
+  </rect>
+  <text x="464.0" y="115.795283170223" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">5.1</text>
+  <text x="464.0" y="368" font-size="11" fill="#334155" text-anchor="middle">Random Baseline</text>
+  <rect x="572.0" y="261.0540670624098" width="60" height="88.94593293759024" fill="#3b82f6" rx="3">
+    <title>No-Asks Baseline: 1.98</title>
+  </rect>
+  <text x="602.0" y="255.05406706240979" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">2.0</text>
+  <text x="602.0" y="368" font-size="11" fill="#334155" text-anchor="middle">No-Asks Baseline</text>
+  <text x="395.0" y="405" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Decision Policy</text>
+  <text transform="rotate(-90 22 210.0)" x="22" y="210.0" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Mutual Acceptances per 100 Arrived</text>
+</svg>

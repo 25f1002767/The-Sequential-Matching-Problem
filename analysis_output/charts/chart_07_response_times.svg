@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 420" width="100%" height="100%" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #ffffff;">
+  <rect width="750" height="420" fill="#ffffff" rx="8"/>
+  <text x="80" y="32" font-size="16" font-weight="700" fill="#0f172a">Empirical Response Time Distribution (Mean = 3.28 Days)</text>
+  <text x="80" y="50" font-size="12" fill="#64748b">Observed turnaround time from introduction assignment to participant response</text>
+  <line x1="80" y1="350.0" x2="710" y2="350.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="354.0" font-size="11" fill="#64748b" text-anchor="end">0.0%</text>
+  <line x1="80" y1="294.0" x2="710" y2="294.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="298.0" font-size="11" fill="#64748b" text-anchor="end">3.7%</text>
+  <line x1="80" y1="238.0" x2="710" y2="238.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="242.0" font-size="11" fill="#64748b" text-anchor="end">7.4%</text>
+  <line x1="80" y1="181.99999999999997" x2="710" y2="181.99999999999997" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="185.99999999999997" font-size="11" fill="#64748b" text-anchor="end">11%</text>
+  <line x1="80" y1="126.0" x2="710" y2="126.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="130.0" font-size="11" fill="#64748b" text-anchor="end">14%</text>
+  <line x1="80" y1="70.0" x2="710" y2="70.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="74.0" font-size="11" fill="#64748b" text-anchor="end">18%</text>
+  <line x1="80" y1="70" x2="80" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="80" y1="350" x2="710" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="106.25" y="147.68369090563888" width="60" height="202.31630909436112" fill="#d97706" rx="3">
+    <title>Day 1: 13.32%</title>
+  </rect>
+  <text x="136.25" y="141.68369090563888" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">13.3%</text>
+  <text x="136.25" y="368" font-size="11" fill="#334155" text-anchor="middle">Day 1</text>
+  <rect x="192.5" y="106.52173913043475" width="60" height="243.47826086956525" fill="#f59e0b" rx="3">
+    <title>Day 2: 16.03%</title>
+  </rect>
+  <text x="222.5" y="100.52173913043475" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">16.0%</text>
+  <text x="222.5" y="368" font-size="11" fill="#334155" text-anchor="middle">Day 2</text>
+  <rect x="278.75" y="134.01367002088475" width="60" height="215.98632997911525" fill="#d97706" rx="3">
+    <title>Day 3: 14.22%</title>
+  </rect>
+  <text x="308.75" y="128.01367002088475" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">14.2%</text>
+  <text x="308.75" y="368" font-size="11" fill="#334155" text-anchor="middle">Day 3</text>
+  <rect x="365.0" y="147.68369090563888" width="60" height="202.31630909436112" fill="#f59e0b" rx="3">
+    <title>Day 4: 13.32%</title>
+  </rect>
+  <text x="395.0" y="141.68369090563888" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">13.3%</text>
+  <text x="395.0" y="368" font-size="11" fill="#334155" text-anchor="middle">Day 4</text>
+  <rect x="451.25" y="108.34440858173534" width="60" height="241.65559141826466" fill="#d97706" rx="3">
+    <title>Day 5: 15.91%</title>
+  </rect>
+  <text x="481.25" y="102.34440858173534" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">15.9%</text>
+  <text x="481.25" y="368" font-size="11" fill="#334155" text-anchor="middle">Day 5</text>
+  <rect x="537.5" y="142.51946079362065" width="60" height="207.48053920637935" fill="#f59e0b" rx="3">
+    <title>Day 6: 13.66%</title>
+  </rect>
+  <text x="567.5" y="136.51946079362065" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">13.7%</text>
+  <text x="567.5" y="368" font-size="11" fill="#334155" text-anchor="middle">Day 6</text>
+  <rect x="623.75" y="144.3421302449212" width="60" height="205.6578697550788" fill="#d97706" rx="3">
+    <title>Day 7: 13.54%</title>
+  </rect>
+  <text x="653.75" y="138.3421302449212" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">13.5%</text>
+  <text x="653.75" y="368" font-size="11" fill="#334155" text-anchor="middle">Day 7</text>
+  <text x="395.0" y="405" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Turnaround Days to Response</text>
+  <text transform="rotate(-90 22 210.0)" x="22" y="210.0" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Proportion of Responding Members (%)</text>
+</svg>

@@ -1,0 +1,5 @@
+outcome_category,count,percentage,simulator_meaning
+REJECTED,365,59.54,At least one member returned explicit 'no'
+EXPIRED_NO_RESPONSE,115,18.76,At least one member did not respond by day 7 (timeout)
+MUTUAL_ACCEPTANCE,84,13.7,Both members responded 'yes' within 7-day deadline
+AWAITING_RESPONSE,49,7.99,Unresolved as of day 30 observation snapshot

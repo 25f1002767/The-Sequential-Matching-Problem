@@ -1,0 +1,1116 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="Header">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#1E3A8A" ss:Pattern="Solid"/>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="Data">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="10" ss:Color="#0F172A"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="01_Data_Overview">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">Metric</Data></Cell>
+    <Cell><Data ss:Type="String">Value</Data></Cell>
+    <Cell><Data ss:Type="String">Category</Data></Cell>
+    <Cell><Data ss:Type="String">Meaning</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Total Benchmark Datasets</Data></Cell>
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell><Data ss:Type="String">Overview</Data></Cell>
+    <Cell><Data ss:Type="String">Independent simulation worlds (public_01 to public_10)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Total Member Profiles</Data></Cell>
+    <Cell><Data ss:Type="String">2,000</Data></Cell>
+    <Cell><Data ss:Type="String">Population</Data></Cell>
+    <Cell><Data ss:Type="String">Total synthetic adult individuals across all pools</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Unique Member IDs</Data></Cell>
+    <Cell><Data ss:Type="String">2,000</Data></Cell>
+    <Cell><Data ss:Type="String">Integrity</Data></Cell>
+    <Cell><Data ss:Type="String">Zero duplicate member IDs across all pools</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Duplicate Member Rows</Data></Cell>
+    <Cell><Data ss:Type="String">0</Data></Cell>
+    <Cell><Data ss:Type="String">Integrity</Data></Cell>
+    <Cell><Data ss:Type="String">No duplicated participant profiles detected</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Questionnaire Records</Data></Cell>
+    <Cell><Data ss:Type="String">2,000</Data></Cell>
+    <Cell><Data ss:Type="String">Questionnaires</Data></Cell>
+    <Cell><Data ss:Type="String">Initial self-reported response sheets</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Historical Introductions</Data></Cell>
+    <Cell><Data ss:Type="String">613</Data></Cell>
+    <Cell><Data ss:Type="String">Interactions</Data></Cell>
+    <Cell><Data ss:Type="String">Proposed pairings logged up to Day 30</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Observed Feedback Events</Data></Cell>
+    <Cell><Data ss:Type="String">1,270</Data></Cell>
+    <Cell><Data ss:Type="String">Interactions</Data></Cell>
+    <Cell><Data ss:Type="String">Acceptance / rejection / timeout events</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Conversation Records</Data></Cell>
+    <Cell><Data ss:Type="String">1,129</Data></Cell>
+    <Cell><Data ss:Type="String">Interactions</Data></Cell>
+    <Cell><Data ss:Type="String">Authored transcripts for soft trait discovery</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Hard Constraint Fields</Data></Cell>
+    <Cell><Data ss:Type="String">11</Data></Cell>
+    <Cell><Data ss:Type="String">Schema</Data></Cell>
+    <Cell><Data ss:Type="String">Strict blocking reciprocal criteria</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Soft Preference Fields</Data></Cell>
+    <Cell><Data ss:Type="String">7</Data></Cell>
+    <Cell><Data ss:Type="String">Schema</Data></Cell>
+    <Cell><Data ss:Type="String">Non-blocking compatibility scoring traits</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Daily Clarification Budget</Data></Cell>
+    <Cell><Data ss:Type="String">12 units/day</Data></Cell>
+    <Cell><Data ss:Type="String">Protocol</Data></Cell>
+    <Cell><Data ss:Type="String">Budget to query unobserved fields (3/bundle, 1/soft)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Simulation Decision Horizon</Data></Cell>
+    <Cell><Data ss:Type="String">60 Days</Data></Cell>
+    <Cell><Data ss:Type="String">Protocol</Data></Cell>
+    <Cell><Data ss:Type="String">Active introduction window (40-day follow-up)</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="02_Descriptive_Analysis">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">age_group</Data></Cell>
+    <Cell><Data ss:Type="String">count</Data></Cell>
+    <Cell><Data ss:Type="String">percentage</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">21-25</Data></Cell>
+    <Cell><Data ss:Type="Number">389</Data></Cell>
+    <Cell><Data ss:Type="Number">19.45</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">26-30</Data></Cell>
+    <Cell><Data ss:Type="Number">370</Data></Cell>
+    <Cell><Data ss:Type="Number">18.5</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">31-35</Data></Cell>
+    <Cell><Data ss:Type="Number">378</Data></Cell>
+    <Cell><Data ss:Type="Number">18.9</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">36-40</Data></Cell>
+    <Cell><Data ss:Type="Number">370</Data></Cell>
+    <Cell><Data ss:Type="Number">18.5</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">41-45</Data></Cell>
+    <Cell><Data ss:Type="Number">399</Data></Cell>
+    <Cell><Data ss:Type="Number">19.95</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">46-50</Data></Cell>
+    <Cell><Data ss:Type="Number">94</Data></Cell>
+    <Cell><Data ss:Type="Number">4.7</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="03_Missingness">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">field_name</Data></Cell>
+    <Cell><Data ss:Type="String">field_type</Data></Cell>
+    <Cell><Data ss:Type="String">total_records</Data></Cell>
+    <Cell><Data ss:Type="String">missing_count</Data></Cell>
+    <Cell><Data ss:Type="String">missing_percentage</Data></Cell>
+    <Cell><Data ss:Type="String">observed_count</Data></Cell>
+    <Cell><Data ss:Type="String">not_asked_count</Data></Cell>
+    <Cell><Data ss:Type="String">declined_count</Data></Cell>
+    <Cell><Data ss:Type="String">matching_impact</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">schedule</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">644</Data></Cell>
+    <Cell><Data ss:Type="Number">32.2</Data></Cell>
+    <Cell><Data ss:Type="Number">1356</Data></Cell>
+    <Cell><Data ss:Type="Number">559</Data></Cell>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKS FEASIBILITY (Pair marked NEEDS_CLARIFICATION)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">age_min</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">638</Data></Cell>
+    <Cell><Data ss:Type="Number">31.9</Data></Cell>
+    <Cell><Data ss:Type="Number">1362</Data></Cell>
+    <Cell><Data ss:Type="Number">563</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKS FEASIBILITY (Pair marked NEEDS_CLARIFICATION)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">partner_smoking</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">638</Data></Cell>
+    <Cell><Data ss:Type="Number">31.9</Data></Cell>
+    <Cell><Data ss:Type="Number">1362</Data></Cell>
+    <Cell><Data ss:Type="Number">549</Data></Cell>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKS FEASIBILITY (Pair marked NEEDS_CLARIFICATION)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">acceptable_zones</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">638</Data></Cell>
+    <Cell><Data ss:Type="Number">31.9</Data></Cell>
+    <Cell><Data ss:Type="Number">1362</Data></Cell>
+    <Cell><Data ss:Type="Number">558</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKS FEASIBILITY (Pair marked NEEDS_CLARIFICATION)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">who_to_meet</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">637</Data></Cell>
+    <Cell><Data ss:Type="Number">31.85</Data></Cell>
+    <Cell><Data ss:Type="Number">1363</Data></Cell>
+    <Cell><Data ss:Type="Number">537</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKS FEASIBILITY (Pair marked NEEDS_CLARIFICATION)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">relationship_structure</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">636</Data></Cell>
+    <Cell><Data ss:Type="Number">31.8</Data></Cell>
+    <Cell><Data ss:Type="Number">1364</Data></Cell>
+    <Cell><Data ss:Type="Number">553</Data></Cell>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKS FEASIBILITY (Pair marked NEEDS_CLARIFICATION)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">age_max</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">632</Data></Cell>
+    <Cell><Data ss:Type="Number">31.6</Data></Cell>
+    <Cell><Data ss:Type="Number">1368</Data></Cell>
+    <Cell><Data ss:Type="Number">536</Data></Cell>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKS FEASIBILITY (Pair marked NEEDS_CLARIFICATION)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">has_children</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">632</Data></Cell>
+    <Cell><Data ss:Type="Number">31.6</Data></Cell>
+    <Cell><Data ss:Type="Number">1368</Data></Cell>
+    <Cell><Data ss:Type="Number">532</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKS FEASIBILITY (Pair marked NEEDS_CLARIFICATION)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">partner_children</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">631</Data></Cell>
+    <Cell><Data ss:Type="Number">31.55</Data></Cell>
+    <Cell><Data ss:Type="Number">1369</Data></Cell>
+    <Cell><Data ss:Type="Number">540</Data></Cell>
+    <Cell><Data ss:Type="Number">91</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKS FEASIBILITY (Pair marked NEEDS_CLARIFICATION)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">wants_children</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">631</Data></Cell>
+    <Cell><Data ss:Type="Number">31.55</Data></Cell>
+    <Cell><Data ss:Type="Number">1369</Data></Cell>
+    <Cell><Data ss:Type="Number">552</Data></Cell>
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKS FEASIBILITY (Pair marked NEEDS_CLARIFICATION)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">smoking</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">630</Data></Cell>
+    <Cell><Data ss:Type="Number">31.5</Data></Cell>
+    <Cell><Data ss:Type="Number">1370</Data></Cell>
+    <Cell><Data ss:Type="Number">553</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKS FEASIBILITY (Pair marked NEEDS_CLARIFICATION)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">relationship_goal</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1207</Data></Cell>
+    <Cell><Data ss:Type="Number">60.35</Data></Cell>
+    <Cell><Data ss:Type="Number">793</Data></Cell>
+    <Cell><Data ss:Type="Number">1131</Data></Cell>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="String">REDUCES RANKING CONFIDENCE (Does not block pair)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">emotional_availability</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1203</Data></Cell>
+    <Cell><Data ss:Type="Number">60.15</Data></Cell>
+    <Cell><Data ss:Type="Number">797</Data></Cell>
+    <Cell><Data ss:Type="Number">1125</Data></Cell>
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell><Data ss:Type="String">REDUCES RANKING CONFIDENCE (Does not block pair)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">lifestyle</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1202</Data></Cell>
+    <Cell><Data ss:Type="Number">60.1</Data></Cell>
+    <Cell><Data ss:Type="Number">798</Data></Cell>
+    <Cell><Data ss:Type="Number">1128</Data></Cell>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell><Data ss:Type="String">REDUCES RANKING CONFIDENCE (Does not block pair)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">relocate</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1201</Data></Cell>
+    <Cell><Data ss:Type="Number">60.05</Data></Cell>
+    <Cell><Data ss:Type="Number">799</Data></Cell>
+    <Cell><Data ss:Type="Number">1118</Data></Cell>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="String">REDUCES RANKING CONFIDENCE (Does not block pair)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">space_for_relationship</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="Number">60.0</Data></Cell>
+    <Cell><Data ss:Type="Number">800</Data></Cell>
+    <Cell><Data ss:Type="Number">1129</Data></Cell>
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell><Data ss:Type="String">REDUCES RANKING CONFIDENCE (Does not block pair)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">relationship_pace</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1199</Data></Cell>
+    <Cell><Data ss:Type="Number">59.95</Data></Cell>
+    <Cell><Data ss:Type="Number">801</Data></Cell>
+    <Cell><Data ss:Type="Number">1133</Data></Cell>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell><Data ss:Type="String">REDUCES RANKING CONFIDENCE (Does not block pair)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">conversations</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1178</Data></Cell>
+    <Cell><Data ss:Type="Number">58.9</Data></Cell>
+    <Cell><Data ss:Type="Number">822</Data></Cell>
+    <Cell><Data ss:Type="Number">1091</Data></Cell>
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell><Data ss:Type="String">REDUCES RANKING CONFIDENCE (Does not block pair)</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="04_Data_Quality">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">group</Data></Cell>
+    <Cell><Data ss:Type="String">average_missing_percentage</Data></Cell>
+    <Cell><Data ss:Type="String">min_missing_percentage</Data></Cell>
+    <Cell><Data ss:Type="String">max_missing_percentage</Data></Cell>
+    <Cell><Data ss:Type="String">critical_insight</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Hard Constraints (11 Fields)</Data></Cell>
+    <Cell><Data ss:Type="Number">31.76</Data></Cell>
+    <Cell><Data ss:Type="Number">31.5</Data></Cell>
+    <Cell><Data ss:Type="Number">32.2</Data></Cell>
+    <Cell><Data ss:Type="String">Reciprocal eligibility requires all 11 fields across BOTH partners (22 checks). If any single field is unobserved, the candidate edge is locked as uncertain.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Soft Preferences (7 Fields)</Data></Cell>
+    <Cell><Data ss:Type="Number">59.93</Data></Cell>
+    <Cell><Data ss:Type="Number">58.9</Data></Cell>
+    <Cell><Data ss:Type="Number">60.35</Data></Cell>
+    <Cell><Data ss:Type="String">Soft fields provide signal for mutual acceptance and MSMI, but high missingness requires Laplacian smoothing and UCB exploration bonuses.</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="05_Feature_Dictionary">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">Raw Field</Data></Cell>
+    <Cell><Data ss:Type="String">Engineered Feature</Data></Cell>
+    <Cell><Data ss:Type="String">Feature Type</Data></Cell>
+    <Cell><Data ss:Type="String">Constraint Class</Data></Cell>
+    <Cell><Data ss:Type="String">Handling of Unknown</Data></Cell>
+    <Cell><Data ss:Type="String">Mathematical Definition</Data></Cell>
+    <Cell><Data ss:Type="String">Used in Policy</Data></Cell>
+    <Cell><Data ss:Type="String">Used in Evaluator</Data></Cell>
+    <Cell><Data ss:Type="String">Strategic Purpose</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">who_to_meet, gender</Data></Cell>
+    <Cell><Data ss:Type="String">reciprocal_gender_compat</Data></Cell>
+    <Cell><Data ss:Type="String">Binary / Categorical</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="String">If unasked, returns UNKNOWN (needs_clarification); blocks matching until clarified. If declined, remains permanently blocked.</Data></Cell>
+    <Cell><Data ss:Type="String">a.gender in b.who_to_meet AND b.gender in a.who_to_meet</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Mandatory filter)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Raises hard error if violated)</Data></Cell>
+    <Cell><Data ss:Type="String">Ensures reciprocal demographic orientation alignment.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">age_min, age_max, age</Data></Cell>
+    <Cell><Data ss:Type="String">reciprocal_age_compat</Data></Cell>
+    <Cell><Data ss:Type="String">Binary / Continuous Interval</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="String">Treated as UNKNOWN if unasked. Never imputed.</Data></Cell>
+    <Cell><Data ss:Type="String">b.age_min &lt;= a.age &lt;= b.age_max AND a.age_min &lt;= b.age &lt;= a.age_max</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Mandatory filter)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Raises hard error if violated)</Data></Cell>
+    <Cell><Data ss:Type="String">Enforces mutual age preference bounds.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">acceptable_zones, zone</Data></Cell>
+    <Cell><Data ss:Type="String">reciprocal_geography_compat</Data></Cell>
+    <Cell><Data ss:Type="String">Set Membership</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="String">Treated as UNKNOWN if unasked. Blocks edge feasibility.</Data></Cell>
+    <Cell><Data ss:Type="String">b.zone in a.acceptable_zones AND a.zone in b.acceptable_zones</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Mandatory filter)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Raises hard error if violated)</Data></Cell>
+    <Cell><Data ss:Type="String">Guarantees practical geographical feasibility for offline dates.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">smoking, partner_smoking</Data></Cell>
+    <Cell><Data ss:Type="String">reciprocal_smoking_compat</Data></Cell>
+    <Cell><Data ss:Type="String">Categorical Constraint</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="String">Treated as UNKNOWN. If either partner is unasked, edge is marked NEEDS_CLARIFICATION.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT (a.partner_smoking=='no_smoking' and b.smoking in ['yes','occasionally']) AND reciprocal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Mandatory filter)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Raises hard error if violated)</Data></Cell>
+    <Cell><Data ss:Type="String">Prevents severe lifestyle incompatibility.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">has_children, partner_children</Data></Cell>
+    <Cell><Data ss:Type="String">reciprocal_children_compat</Data></Cell>
+    <Cell><Data ss:Type="String">Categorical / Boolean Constraint</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="String">Treated as UNKNOWN. Blocks edge.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT (a.partner_children=='no_children' and b.has_children==True) AND reciprocal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Mandatory filter)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Raises hard error if violated)</Data></Cell>
+    <Cell><Data ss:Type="String">Protects parental boundaries and family acceptance preferences.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">wants_children</Data></Cell>
+    <Cell><Data ss:Type="String">wants_children_alignment</Data></Cell>
+    <Cell><Data ss:Type="String">Categorical Compatibility</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="String">Treated as UNKNOWN if either is None. Mutually conflicting only if set is {'yes', 'no'}.</Data></Cell>
+    <Cell><Data ss:Type="String">NOT ({a.wants_children, b.wants_children} == {'yes', 'no'})</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Mandatory filter)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Raises hard error if violated)</Data></Cell>
+    <Cell><Data ss:Type="String">Ensures future family planning non-contradiction.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">relationship_structure</Data></Cell>
+    <Cell><Data ss:Type="String">structure_compat</Data></Cell>
+    <Cell><Data ss:Type="String">Categorical Equality</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="String">Treated as UNKNOWN if unasked.</Data></Cell>
+    <Cell><Data ss:Type="String">a.relationship_structure == b.relationship_structure</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Mandatory filter)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Raises hard error if violated)</Data></Cell>
+    <Cell><Data ss:Type="String">Aligns monogamous vs non-monogamous commitments.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">schedule</Data></Cell>
+    <Cell><Data ss:Type="String">schedule_overlap_compat</Data></Cell>
+    <Cell><Data ss:Type="String">Set Intersection</Data></Cell>
+    <Cell><Data ss:Type="String">HARD CONSTRAINT</Data></Cell>
+    <Cell><Data ss:Type="String">Treated as UNKNOWN if unasked.</Data></Cell>
+    <Cell><Data ss:Type="String">len(set(a.schedule).intersection(set(b.schedule))) &gt; 0</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Mandatory filter)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Raises hard error if violated)</Data></Cell>
+    <Cell><Data ss:Type="String">Verifies that both members have at least one shared availability window.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">relationship_goal</Data></Cell>
+    <Cell><Data ss:Type="String">goal_alignment</Data></Cell>
+    <Cell><Data ss:Type="String">Soft Similarity (0/1)</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="String">Does NOT block. Treated as neutral / Laplacian smoothed.</Data></Cell>
+    <Cell><Data ss:Type="String">1.0 if a.goal == b.goal else 0.0 (Latent weight: +0.70 first date, +0.40 MSMI)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Core ranking component)</Data></Cell>
+    <Cell><Data ss:Type="String">Latent ground-truth driver of mutual acceptance &amp; MSMI</Data></Cell>
+    <Cell><Data ss:Type="String">Decisive driver of first date acceptance and mutual second-meeting intention.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">relationship_pace</Data></Cell>
+    <Cell><Data ss:Type="String">pace_alignment</Data></Cell>
+    <Cell><Data ss:Type="String">Soft Similarity (0/1)</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="String">Does NOT block.</Data></Cell>
+    <Cell><Data ss:Type="String">1.0 if a.pace == b.pace else 0.0 (Latent weight: +0.40 first date)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Core ranking component)</Data></Cell>
+    <Cell><Data ss:Type="String">Latent ground-truth driver of mutual acceptance</Data></Cell>
+    <Cell><Data ss:Type="String">Controls relationship escalation speed compatibility.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">lifestyle</Data></Cell>
+    <Cell><Data ss:Type="String">lifestyle_alignment</Data></Cell>
+    <Cell><Data ss:Type="String">Soft Similarity (0/1)</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="String">Does NOT block.</Data></Cell>
+    <Cell><Data ss:Type="String">1.0 if a.lifestyle == b.lifestyle else 0.0 (Latent weight: +0.25 first date)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Secondary ranking)</Data></Cell>
+    <Cell><Data ss:Type="String">Latent ground-truth driver of mutual acceptance</Data></Cell>
+    <Cell><Data ss:Type="String">Measures day-to-day energy and free time alignment (quiet/mixed/social).</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">conversations</Data></Cell>
+    <Cell><Data ss:Type="String">conversation_alignment</Data></Cell>
+    <Cell><Data ss:Type="String">Soft Similarity (0/1)</Data></Cell>
+    <Cell><Data ss:Type="String">SOFT PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="String">Does NOT block.</Data></Cell>
+    <Cell><Data ss:Type="String">1.0 if a.conversations == b.conversations else 0.0 (Latent weight: +0.20 first date)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Secondary ranking)</Data></Cell>
+    <Cell><Data ss:Type="String">Latent ground-truth driver of mutual acceptance</Data></Cell>
+    <Cell><Data ss:Type="String">Measures conversational style preference (ideas/stories/practical/playful).</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">SOFT_FIELDS (7 fields)</Data></Cell>
+    <Cell><Data ss:Type="String">composite_soft_fit</Data></Cell>
+    <Cell><Data ss:Type="String">Continuous [0.0, 1.0]</Data></Cell>
+    <Cell><Data ss:Type="String">COMPOSITE SOFT SCORE</Data></Cell>
+    <Cell><Data ss:Type="String">Calculated over observed overlap only. Neutral 0.0 if no shared known fields.</Data></Cell>
+    <Cell><Data ss:Type="String">sum(a[k] == b[k] for k in known_soft) / len(known_soft)</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Direct linear term in V2.2 scoring)</Data></Cell>
+    <Cell><Data ss:Type="String">Directly correlates with simulator acceptance probability</Data></Cell>
+    <Cell><Data ss:Type="String">Normalized pairwise compatibility metric under partial observability.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Candidate graph degrees</Data></Cell>
+    <Cell><Data ss:Type="String">degree_scarcity_bonus</Data></Cell>
+    <Cell><Data ss:Type="String">Graph Centrality Heuristic</Data></Cell>
+    <Cell><Data ss:Type="String">ALLOCATION HEURISTIC</Data></Cell>
+    <Cell><Data ss:Type="String">Computed over current feasible graph.</Data></Cell>
+    <Cell><Data ss:Type="String">(1 / (deg(a) + 1) + 1 / (deg(b) + 1)) * 0.10</Data></Cell>
+    <Cell><Data ss:Type="String">Yes (Protects scarce members from being stranded)</Data></Cell>
+    <Cell><Data ss:Type="String">Improves overall pool coverage without sacrificing MSMI</Data></Cell>
+    <Cell><Data ss:Type="String">Allocates candidates with single options first to maximize total coverage.</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="06_Pair_Level_Features">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">Metric</Data></Cell>
+    <Cell><Data ss:Type="String">Value</Data></Cell>
+    <Cell><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell><Data ss:Type="String">Interpretation</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Total Pair Combinations Evaluated</Data></Cell>
+    <Cell><Data ss:Type="String">199,000</Data></Cell>
+    <Cell><Data ss:Type="String">100.0%</Data></Cell>
+    <Cell><Data ss:Type="String">10 disjoint pools * (200 * 199 / 2) candidate edges</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Fully Feasible Pairs (Confirmed)</Data></Cell>
+    <Cell><Data ss:Type="String">987</Data></Cell>
+    <Cell><Data ss:Type="String">0.50%</Data></Cell>
+    <Cell><Data ss:Type="String">All 11 hard constraints verified in both directions with zero unobserved fields</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Uncertain Pairs (Needs Clarification)</Data></Cell>
+    <Cell><Data ss:Type="String">792</Data></Cell>
+    <Cell><Data ss:Type="String">0.40%</Data></Cell>
+    <Cell><Data ss:Type="String">Zero hard violations observed so far, but at least 1 hard field is unasked</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Confirmed Incompatible Pairs</Data></Cell>
+    <Cell><Data ss:Type="String">197,221</Data></Cell>
+    <Cell><Data ss:Type="String">99.11%</Data></Cell>
+    <Cell><Data ss:Type="String">At least one reciprocal hard rule violated (gender, age, geography, etc.)</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="07_Candidate_Analysis">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">candidate_bracket</Data></Cell>
+    <Cell><Data ss:Type="String">member_count</Data></Cell>
+    <Cell><Data ss:Type="String">percentage</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">0 Candidates</Data></Cell>
+    <Cell><Data ss:Type="Number">1280</Data></Cell>
+    <Cell><Data ss:Type="Number">64.0</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">1 - 5 Candidates</Data></Cell>
+    <Cell><Data ss:Type="Number">656</Data></Cell>
+    <Cell><Data ss:Type="Number">32.8</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">6 - 10 Candidates</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="Number">2.8</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">11 - 20 Candidates</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">21 - 50 Candidates</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">51 - 100 Candidates</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">101+ Candidates</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="08_N_Analysis">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">Metric</Data></Cell>
+    <Cell><Data ss:Type="String">Value</Data></Cell>
+    <Cell><Data ss:Type="String">Meaning</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Total Analyzed Members</Data></Cell>
+    <Cell><Data ss:Type="String">2,000</Data></Cell>
+    <Cell><Data ss:Type="String">All synthetic members across 10 benchmark pools</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Members with &gt;= 1 Feasible Candidate (N)</Data></Cell>
+    <Cell><Data ss:Type="String">720</Data></Cell>
+    <Cell><Data ss:Type="String">36.0% of the population has at least one verified candidate</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Members with Zero Feasible Candidates</Data></Cell>
+    <Cell><Data ss:Type="String">1,280</Data></Cell>
+    <Cell><Data ss:Type="String">64.0% have 0 confirmed candidates under strict current information</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Members with &gt;= 1 Potential Candidate (including Uncertain)</Data></Cell>
+    <Cell><Data ss:Type="String">874</Data></Cell>
+    <Cell><Data ss:Type="String">43.7% could have candidates if unasked fields are clarified</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Mean Candidates per Member</Data></Cell>
+    <Cell><Data ss:Type="String">0.99</Data></Cell>
+    <Cell><Data ss:Type="String">Average candidate degree across all members</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Median Candidates per Member</Data></Cell>
+    <Cell><Data ss:Type="String">0.0</Data></Cell>
+    <Cell><Data ss:Type="String">Median candidate degree</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Max Candidates for a Single Member</Data></Cell>
+    <Cell><Data ss:Type="String">17</Data></Cell>
+    <Cell><Data ss:Type="String">Highest degree observed</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Min Candidates for a Single Member</Data></Cell>
+    <Cell><Data ss:Type="String">0</Data></Cell>
+    <Cell><Data ss:Type="String">Lowest degree observed</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="09_Episode_Analysis">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">outcome_category</Data></Cell>
+    <Cell><Data ss:Type="String">count</Data></Cell>
+    <Cell><Data ss:Type="String">percentage</Data></Cell>
+    <Cell><Data ss:Type="String">simulator_meaning</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">REJECTED</Data></Cell>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+    <Cell><Data ss:Type="Number">59.54</Data></Cell>
+    <Cell><Data ss:Type="String">At least one member returned explicit 'no'</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">EXPIRED_NO_RESPONSE</Data></Cell>
+    <Cell><Data ss:Type="Number">115</Data></Cell>
+    <Cell><Data ss:Type="Number">18.76</Data></Cell>
+    <Cell><Data ss:Type="String">At least one member did not respond by day 7 (timeout)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">MUTUAL_ACCEPTANCE</Data></Cell>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell><Data ss:Type="Number">13.7</Data></Cell>
+    <Cell><Data ss:Type="String">Both members responded 'yes' within 7-day deadline</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">AWAITING_RESPONSE</Data></Cell>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="Number">7.99</Data></Cell>
+    <Cell><Data ss:Type="String">Unresolved as of day 30 observation snapshot</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="10_Waiting_Response">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">Metric</Data></Cell>
+    <Cell><Data ss:Type="String">Value</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Total Valid Responses Tracked</Data></Cell>
+    <Cell><Data ss:Type="String">886</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Mean Response Delay</Data></Cell>
+    <Cell><Data ss:Type="String">3.98 Days</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Median Response Delay</Data></Cell>
+    <Cell><Data ss:Type="String">4.0 Days</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Std Deviation</Data></Cell>
+    <Cell><Data ss:Type="String">1.98 Days</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Min Response Delay</Data></Cell>
+    <Cell><Data ss:Type="String">1 Day (Fastest)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Max Response Delay</Data></Cell>
+    <Cell><Data ss:Type="String">7 Days (Deadline)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Official Response Deadline</Data></Cell>
+    <Cell><Data ss:Type="String">7 Days</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="11_Exploration">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">root_cause</Data></Cell>
+    <Cell><Data ss:Type="String">affected_members_count</Data></Cell>
+    <Cell><Data ss:Type="String">percentage_of_zero_candidate_members</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Demographic / Geographic Supply Scarcity</Data></Cell>
+    <Cell><Data ss:Type="Number">1126</Data></Cell>
+    <Cell><Data ss:Type="Number">87.97</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Blocked by Unobserved Hard Information (Clarification Bottleneck)</Data></Cell>
+    <Cell><Data ss:Type="Number">154</Data></Cell>
+    <Cell><Data ss:Type="Number">12.03</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="12_Exploitation">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">Metric</Data></Cell>
+    <Cell><Data ss:Type="String">Count</Data></Cell>
+    <Cell><Data ss:Type="String">Percentage</Data></Cell>
+    <Cell><Data ss:Type="String">Algorithmic Risk</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Critically Scarce Members (1-3 candidates)</Data></Cell>
+    <Cell><Data ss:Type="Number">544</Data></Cell>
+    <Cell><Data ss:Type="Number">27.2</Data></Cell>
+    <Cell><Data ss:Type="String">Greedy algorithms easily strand these members by allocating their sole viable match to a high-degree partner.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">High-Degree Members (20+ candidates)</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell><Data ss:Type="String">Create severe competition and congestion; require rate limiting.</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="13_Policy_Comparison">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">Policy</Data></Cell>
+    <Cell><Data ss:Type="String">Primary Score (MSMI / 100)</Data></Cell>
+    <Cell><Data ss:Type="String">Coverage Rate</Data></Cell>
+    <Cell><Data ss:Type="String">Coverage (Float)</Data></Cell>
+    <Cell><Data ss:Type="String">Mutual Acceptances / 100</Data></Cell>
+    <Cell><Data ss:Type="String">Mean Ask Cost</Data></Cell>
+    <Cell><Data ss:Type="String">Inference Latency (sec)</Data></Cell>
+    <Cell><Data ss:Type="String">Evaluated Episodes</Data></Cell>
+    <Cell><Data ss:Type="String">Tie-Breaker Ranking</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">V2.2 Policy</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3667</Data></Cell>
+    <Cell><Data ss:Type="String">35.50%</Data></Cell>
+    <Cell><Data ss:Type="Number">0.355</Data></Cell>
+    <Cell><Data ss:Type="Number">5.42</Data></Cell>
+    <Cell><Data ss:Type="Number">197.3</Data></Cell>
+    <Cell><Data ss:Type="Number">18.66</Data></Cell>
+    <Cell><Data ss:Type="String">30 / 30 (100% Valid)</Data></Cell>
+    <Cell><Data ss:Type="String">Lead</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Greedy Baseline</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3667</Data></Cell>
+    <Cell><Data ss:Type="String">35.35%</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3535</Data></Cell>
+    <Cell><Data ss:Type="Number">5.18</Data></Cell>
+    <Cell><Data ss:Type="Number">197.3</Data></Cell>
+    <Cell><Data ss:Type="Number">27.58</Data></Cell>
+    <Cell><Data ss:Type="String">30 / 30 (100% Valid)</Data></Cell>
+    <Cell><Data ss:Type="String">Baseline</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Random Baseline</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2667</Data></Cell>
+    <Cell><Data ss:Type="String">35.65%</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3565</Data></Cell>
+    <Cell><Data ss:Type="Number">5.08</Data></Cell>
+    <Cell><Data ss:Type="Number">197.3</Data></Cell>
+    <Cell><Data ss:Type="Number">21.3</Data></Cell>
+    <Cell><Data ss:Type="String">30 / 30 (100% Valid)</Data></Cell>
+    <Cell><Data ss:Type="String">Baseline</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">No-Asks Baseline</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1833</Data></Cell>
+    <Cell><Data ss:Type="String">13.75%</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1375</Data></Cell>
+    <Cell><Data ss:Type="Number">1.98</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell><Data ss:Type="Number">21.39</Data></Cell>
+    <Cell><Data ss:Type="String">30 / 30 (100% Valid)</Data></Cell>
+    <Cell><Data ss:Type="String">Baseline</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="14_Scenario_Results">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">Policy</Data></Cell>
+    <Cell><Data ss:Type="String">Scenario Family</Data></Cell>
+    <Cell><Data ss:Type="String">MSMI per 100</Data></Cell>
+    <Cell><Data ss:Type="String">Coverage</Data></Cell>
+    <Cell><Data ss:Type="String">Mutual Acceptances / 100</Data></Cell>
+    <Cell><Data ss:Type="String">Ask Cost</Data></Cell>
+    <Cell><Data ss:Type="String">Inference Latency (sec)</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">V2.2 Policy</Data></Cell>
+    <Cell><Data ss:Type="String">cold_start</Data></Cell>
+    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="Number">37.0</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell><Data ss:Type="Number">246.0</Data></Cell>
+    <Cell><Data ss:Type="Number">26.84</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">V2.2 Policy</Data></Cell>
+    <Cell><Data ss:Type="String">delayed</Data></Cell>
+    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="Number">40.2</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">19.77</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">V2.2 Policy</Data></Cell>
+    <Cell><Data ss:Type="String">development</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">40.6</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">16.22</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">V2.2 Policy</Data></Cell>
+    <Cell><Data ss:Type="String">drift</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">40.6</Data></Cell>
+    <Cell><Data ss:Type="Number">6.5</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">15.83</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">V2.2 Policy</Data></Cell>
+    <Cell><Data ss:Type="String">shift</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">40.7</Data></Cell>
+    <Cell><Data ss:Type="Number">6.1</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">15.85</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">V2.2 Policy</Data></Cell>
+    <Cell><Data ss:Type="String">sparse</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell><Data ss:Type="Number">13.9</Data></Cell>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">184.2</Data></Cell>
+    <Cell><Data ss:Type="Number">17.44</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Greedy Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">cold_start</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">37.0</Data></Cell>
+    <Cell><Data ss:Type="Number">5.2</Data></Cell>
+    <Cell><Data ss:Type="Number">246.0</Data></Cell>
+    <Cell><Data ss:Type="Number">29.61</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Greedy Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">delayed</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">40.2</Data></Cell>
+    <Cell><Data ss:Type="Number">6.1</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">26.05</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Greedy Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">development</Data></Cell>
+    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="Number">40.3</Data></Cell>
+    <Cell><Data ss:Type="Number">6.2</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">28.92</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Greedy Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">drift</Data></Cell>
+    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="Number">40.3</Data></Cell>
+    <Cell><Data ss:Type="Number">5.9</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">23.27</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Greedy Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">shift</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">40.4</Data></Cell>
+    <Cell><Data ss:Type="Number">5.9</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">29.79</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Greedy Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">sparse</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="Number">13.9</Data></Cell>
+    <Cell><Data ss:Type="Number">1.8</Data></Cell>
+    <Cell><Data ss:Type="Number">184.2</Data></Cell>
+    <Cell><Data ss:Type="Number">27.81</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Random Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">cold_start</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell><Data ss:Type="Number">36.8</Data></Cell>
+    <Cell><Data ss:Type="Number">5.5</Data></Cell>
+    <Cell><Data ss:Type="Number">246.0</Data></Cell>
+    <Cell><Data ss:Type="Number">17.86</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Random Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">delayed</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">40.8</Data></Cell>
+    <Cell><Data ss:Type="Number">6.4</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">17.49</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Random Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">development</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">40.9</Data></Cell>
+    <Cell><Data ss:Type="Number">5.7</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">19.66</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Random Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">drift</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">40.9</Data></Cell>
+    <Cell><Data ss:Type="Number">5.4</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">29.47</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Random Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">shift</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">40.6</Data></Cell>
+    <Cell><Data ss:Type="Number">5.8</Data></Cell>
+    <Cell><Data ss:Type="Number">188.4</Data></Cell>
+    <Cell><Data ss:Type="Number">24.65</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Random Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">sparse</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="Number">13.9</Data></Cell>
+    <Cell><Data ss:Type="Number">1.7</Data></Cell>
+    <Cell><Data ss:Type="Number">184.2</Data></Cell>
+    <Cell><Data ss:Type="Number">18.69</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">No-Asks Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">cold_start</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="Number">9.1</Data></Cell>
+    <Cell><Data ss:Type="Number">1.0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell><Data ss:Type="Number">23.75</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">No-Asks Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">delayed</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell><Data ss:Type="Number">17.2</Data></Cell>
+    <Cell><Data ss:Type="Number">2.8</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell><Data ss:Type="Number">19.53</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">No-Asks Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">development</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">17.2</Data></Cell>
+    <Cell><Data ss:Type="Number">2.6</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell><Data ss:Type="Number">20.74</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">No-Asks Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">drift</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">17.2</Data></Cell>
+    <Cell><Data ss:Type="Number">2.6</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell><Data ss:Type="Number">19.1</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">No-Asks Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">shift</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell><Data ss:Type="Number">17.3</Data></Cell>
+    <Cell><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell><Data ss:Type="Number">19.7</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">No-Asks Baseline</Data></Cell>
+    <Cell><Data ss:Type="String">sparse</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell><Data ss:Type="Number">4.5</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell><Data ss:Type="Number">25.49</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="15_Key_Insights">
+  <Table>
+   <Row ss:StyleID="Header">
+    <Cell><Data ss:Type="String">category</Data></Cell>
+    <Cell><Data ss:Type="String">observation</Data></Cell>
+    <Cell><Data ss:Type="String">evidence</Data></Cell>
+    <Cell><Data ss:Type="String">impact_on_matching</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Demographics &amp; Density</Data></Cell>
+    <Cell><Data ss:Type="String">Geographic concentration is heavily skewed towards Zone A.</Data></Cell>
+    <Cell><Data ss:Type="String">Zone A represents 59.05% of the population, while Zone D represents only 4.4%.</Data></Cell>
+    <Cell><Data ss:Type="String">Members in Zone D face severe geographic supply scarcity. In sparse variants where zones expand to 12 clusters, candidate graphs fragment rapidly into disconnected components.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Demographics &amp; Age</Data></Cell>
+    <Cell><Data ss:Type="String">The age distribution is centered around early 30s with moderate spread.</Data></Cell>
+    <Cell><Data ss:Type="String">Mean age is 33.65 (std: 7.6), with 26-35 accounting for over 50% of participants.</Data></Cell>
+    <Cell><Data ss:Type="String">Asymmetric age tolerance windows (e.g. ±3 to 10 years) filter out older participants (45+) who require younger partners or vice versa.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Information Asymmetry</Data></Cell>
+    <Cell><Data ss:Type="String">Smoking tolerance exhibits substantial missingness that acts as a hidden barrier.</Data></Cell>
+    <Cell><Data ss:Type="String">31.9% of partner smoking preferences are unobserved at Day 30.</Data></Cell>
+    <Cell><Data ss:Type="String">Because strict non-smokers reject smokers, unknown smoking status leaves thousands of otherwise viable pairs in an uncertain state.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Children &amp; Family Alignment</Data></Cell>
+    <Cell><Data ss:Type="String">Strong alignment exists between having children and accepting partner children, but unasked fields dominate.</Data></Cell>
+    <Cell><Data ss:Type="String">31.6% of existing children status is unobserved.</Data></Cell>
+    <Cell><Data ss:Type="String">Clarifying children constraints is one of the highest leverage operations to unlock high-probability long-term compatibility.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="Data">
+    <Cell><Data ss:Type="String">Soft Match Driver</Data></Cell>
+    <Cell><Data ss:Type="String">Relationship goal is the single most decisive compatibility attribute.</Data></Cell>
+    <Cell><Data ss:Type="String">Simulator ground truth assigns a +0.70 first-date weight and +0.40 second-date weight to matching relationship goals, yet 60.35% are unobserved.</Data></Cell>
+    <Cell><Data ss:Type="String">Matching pairs with opposing relationship goals (long_term vs exploring) leads to catastrophic attrition down the MSMI conversion funnel.</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

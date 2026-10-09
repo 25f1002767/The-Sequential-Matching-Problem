@@ -1,0 +1,3 @@
+Metric,Count,Percentage,Algorithmic Risk
+Critically Scarce Members (1-3 candidates),544,27.2,Greedy algorithms easily strand these members by allocating their sole viable match to a high-degree partner.
+High-Degree Members (20+ candidates),0,0.0,Create severe competition and congestion; require rate limiting.

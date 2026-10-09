@@ -1,0 +1,4 @@
+Operational State,Rule,Impact
+Active Introduction Lockout,A member with an outstanding introduction CANNOT receive another introduction,Locks both members for an average of 3.28 to 7.00 days. Greedily introducing members to low-compatibility partners locks their capacity away from optimal future candidates.
+Expiry & Timeout Handling,Introductions expire on Day 7 if no response is logged,"18.76% of introductions expire without response. Missing feedback must NOT be treated as immediate rejection, but timeout models must anticipate member unavailability."
+Post-Acceptance Date Window,"If mutual acceptance occurs, first date is scheduled within 1-14 days (or +5-12 days in delayed variant)",Members remain busy during the dating window (+6 days). Only if both report mutual second-meeting intention are they permanently retired.

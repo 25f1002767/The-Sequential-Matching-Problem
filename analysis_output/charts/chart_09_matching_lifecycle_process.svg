@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #ffffff;">
+  <rect width="800" height="320" fill="#ffffff" rx="8"/>
+  <text x="30" y="32" font-size="16" font-weight="700" fill="#0f172a">Sequential Matching Lifecycle &amp; Concurrency Protocol</text>
+  <text x="30" y="50" font-size="12" fill="#64748b">Two-phase daily execution loop with 12-unit asking budget and 7-day waiting lockout</text>
+  <rect x="30" y="105" width="105" height="75" fill="#f8fafc" stroke="#1e3a8a" stroke-width="2" rx="6"/>
+  <text x="82.5" y="129" font-size="12" font-weight="700" fill="#1e3a8a" text-anchor="middle">1. Observe</text>
+  <text x="82.5" y="149" font-size="10" fill="#64748b" text-anchor="middle">Inspect active</text>
+  <text x="82.5" y="163" font-size="10" fill="#64748b" text-anchor="middle">members &amp; feed</text>
+  <line x1="138" y1="142.5" x2="155" y2="142.5" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="155,138.5 160,142.5 155,146.5" fill="#94a3b8"/>
+  <rect x="160" y="105" width="105" height="75" fill="#f8fafc" stroke="#2563eb" stroke-width="2" rx="6"/>
+  <text x="212.5" y="129" font-size="12" font-weight="700" fill="#2563eb" text-anchor="middle">2. Clarify</text>
+  <text x="212.5" y="149" font-size="10" fill="#64748b" text-anchor="middle">Spend &lt;= 12 units</text>
+  <text x="212.5" y="163" font-size="10" fill="#64748b" text-anchor="middle">ask budget</text>
+  <line x1="268" y1="142.5" x2="285" y2="142.5" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="285,138.5 290,142.5 285,146.5" fill="#94a3b8"/>
+  <rect x="290" y="105" width="105" height="75" fill="#f8fafc" stroke="#0d9488" stroke-width="2" rx="6"/>
+  <text x="342.5" y="129" font-size="12" font-weight="700" fill="#0d9488" text-anchor="middle">3. Feasibility</text>
+  <text x="342.5" y="149" font-size="10" fill="#64748b" text-anchor="middle">Reciprocal 22-rule</text>
+  <text x="342.5" y="163" font-size="10" fill="#64748b" text-anchor="middle">checks</text>
+  <line x1="398" y1="142.5" x2="415" y2="142.5" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="415,138.5 420,142.5 415,146.5" fill="#94a3b8"/>
+  <rect x="420" y="105" width="105" height="75" fill="#f8fafc" stroke="#059669" stroke-width="2" rx="6"/>
+  <text x="472.5" y="129" font-size="12" font-weight="700" fill="#059669" text-anchor="middle">4. Allocate</text>
+  <text x="472.5" y="149" font-size="10" fill="#64748b" text-anchor="middle">Global matching</text>
+  <text x="472.5" y="163" font-size="10" fill="#64748b" text-anchor="middle">&amp; UCB scoring</text>
+  <line x1="528" y1="142.5" x2="545" y2="142.5" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="545,138.5 550,142.5 545,146.5" fill="#94a3b8"/>
+  <rect x="550" y="105" width="105" height="75" fill="#f8fafc" stroke="#d97706" stroke-width="2" rx="6"/>
+  <text x="602.5" y="129" font-size="12" font-weight="700" fill="#d97706" text-anchor="middle">5. Waiting</text>
+  <text x="602.5" y="149" font-size="10" fill="#64748b" text-anchor="middle">7-day lock</text>
+  <text x="602.5" y="163" font-size="10" fill="#64748b" text-anchor="middle">(no rematches)</text>
+  <line x1="658" y1="142.5" x2="675" y2="142.5" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="675,138.5 680,142.5 675,146.5" fill="#94a3b8"/>
+  <rect x="680" y="105" width="105" height="75" fill="#f8fafc" stroke="#7c3aed" stroke-width="2" rx="6"/>
+  <text x="732.5" y="129" font-size="12" font-weight="700" fill="#7c3aed" text-anchor="middle">6. Resolve</text>
+  <text x="732.5" y="149" font-size="10" fill="#64748b" text-anchor="middle">Feedback -> date</text>
+  <text x="732.5" y="163" font-size="10" fill="#64748b" text-anchor="middle">-> MSMI outcome</text>
+  <rect x="30" y="215" width="355" height="75" fill="#eff6ff" stroke="#bfdbfe" rx="6"/>
+  <text x="45" y="238" font-size="12" font-weight="700" fill="#1e3a8a">Exploration Mechanism (The Asking Budget)</text>
+  <text x="45" y="258" font-size="11" fill="#3b82f6">Target 3-unit hard bundle queries to members with high potential degree.</text>
+  <text x="45" y="274" font-size="11" fill="#3b82f6">Unlocks candidate edges from the 40,715 uncertain episode pool.</text>
+  <rect x="415" y="215" width="355" height="75" fill="#f0fdf4" stroke="#bbf7d0" rx="6"/>
+  <text x="430" y="238" font-size="12" font-weight="700" fill="#166534">Exploitation Mechanism (Allocation &amp; Feedback)</text>
+  <text x="430" y="258" font-size="11" fill="#15803d">Score pairs using soft trait alignment (goal +0.70, pace +0.40).</text>
+  <text x="430" y="274" font-size="11" fill="#15803d">Apply degree-scarcity bonuses to protect single-candidate members.</text>
+</svg>

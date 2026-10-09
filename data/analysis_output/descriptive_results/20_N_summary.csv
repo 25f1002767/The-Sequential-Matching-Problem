@@ -1,0 +1,5 @@
+metric,value
+Total members,2000.0
+N: members with at least one feasible candidate,1301.0
+Members with zero feasible candidates,699.0
+N percentage,65.05

@@ -1,0 +1,5 @@
+Policy,Primary Score (MSMI / 100),Coverage Rate,Coverage (Float),Mutual Acceptances / 100,Mean Ask Cost,Inference Latency (sec),Evaluated Episodes,Tie-Breaker Ranking
+V2.2 Policy,0.3667,35.50%,0.355,5.42,197.3,18.66,30 / 30 (100% Valid),Lead
+Greedy Baseline,0.3667,35.35%,0.3535,5.18,197.3,27.58,30 / 30 (100% Valid),Baseline
+Random Baseline,0.2667,35.65%,0.3565,5.08,197.3,21.3,30 / 30 (100% Valid),Baseline
+No-Asks Baseline,0.1833,13.75%,0.1375,1.98,0.0,21.39,30 / 30 (100% Valid),Baseline

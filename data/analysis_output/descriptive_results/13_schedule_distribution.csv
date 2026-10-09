@@ -1,0 +1,17 @@
+schedule,count,percentage
+,644,32.2
+weekend_day,171,8.55
+weekend_evening,160,8.0
+weekday_evening,149,7.45
+"weekend_day, weekend_evening, weekday_evening",83,4.15
+"weekend_evening, weekend_day",81,4.05
+"weekday_evening, weekend_evening",80,4.0
+"weekend_evening, weekday_evening",78,3.9
+"weekend_day, weekend_evening",77,3.85
+"weekday_evening, weekend_day",77,3.85
+"weekday_evening, weekend_day, weekend_evening",76,3.8
+"weekend_evening, weekday_evening, weekend_day",69,3.45
+"weekend_evening, weekend_day, weekday_evening",68,3.4
+"weekend_day, weekday_evening",65,3.25
+"weekend_day, weekday_evening, weekend_evening",63,3.15
+"weekday_evening, weekend_evening, weekend_day",59,2.95

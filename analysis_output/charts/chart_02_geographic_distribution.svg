@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 420" width="100%" height="100%" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #ffffff;">
+  <rect width="750" height="420" fill="#ffffff" rx="8"/>
+  <text x="80" y="32" font-size="16" font-weight="700" fill="#0f172a">Geographic Zone Distribution Across 10 Benchmark Pools</text>
+  <text x="80" y="50" font-size="12" fill="#64748b">Demonstrates heavy population concentration in Zone A vs extreme scarcity in Zone D</text>
+  <line x1="80" y1="350.0" x2="710" y2="350.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="354.0" font-size="11" fill="#64748b" text-anchor="end">0.0%</text>
+  <line x1="80" y1="294.0" x2="710" y2="294.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="298.0" font-size="11" fill="#64748b" text-anchor="end">13%</text>
+  <line x1="80" y1="238.0" x2="710" y2="238.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="242.0" font-size="11" fill="#64748b" text-anchor="end">27%</text>
+  <line x1="80" y1="182.0" x2="710" y2="182.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="186.0" font-size="11" fill="#64748b" text-anchor="end">40%</text>
+  <line x1="80" y1="126.00000000000003" x2="710" y2="126.00000000000003" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="130.00000000000003" font-size="11" fill="#64748b" text-anchor="end">54%</text>
+  <line x1="80" y1="70.0" x2="710" y2="70.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="74.0" font-size="11" fill="#64748b" text-anchor="end">67%</text>
+  <line x1="80" y1="70" x2="80" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="80" y1="350" x2="710" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="158.0" y="106.52173913043472" width="60" height="243.47826086956528" fill="#0d9488" rx="3">
+    <title>ZONE_A: 59.05%</title>
+  </rect>
+  <text x="188.0" y="100.52173913043472" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">59.0%</text>
+  <text x="188.0" y="368" font-size="11" fill="#334155" text-anchor="middle">ZONE_A</text>
+  <rect x="296.0" y="249.59871884548832" width="60" height="100.40128115451168" fill="#14b8a6" rx="3">
+    <title>ZONE_B: 24.35%</title>
+  </rect>
+  <text x="326.0" y="243.59871884548832" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">24.4%</text>
+  <text x="326.0" y="368" font-size="11" fill="#334155" text-anchor="middle">ZONE_B</text>
+  <rect x="434.0" y="299.6962780252549" width="60" height="50.303721974745066" fill="#0d9488" rx="3">
+    <title>ZONE_C: 12.2%</title>
+  </rect>
+  <text x="464.0" y="293.6962780252549" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">12.2%</text>
+  <text x="464.0" y="368" font-size="11" fill="#334155" text-anchor="middle">ZONE_C</text>
+  <rect x="572.0" y="331.8576740418952" width="60" height="18.142325958104777" fill="#14b8a6" rx="3">
+    <title>ZONE_D: 4.4%</title>
+  </rect>
+  <text x="602.0" y="325.8576740418952" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">4.4%</text>
+  <text x="602.0" y="368" font-size="11" fill="#334155" text-anchor="middle">ZONE_D</text>
+  <text x="395.0" y="405" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Geographic Cluster</text>
+  <text transform="rotate(-90 22 210.0)" x="22" y="210.0" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Population Share (%)</text>
+</svg>

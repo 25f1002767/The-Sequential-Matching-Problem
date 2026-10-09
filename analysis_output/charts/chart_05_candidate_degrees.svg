@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 420" width="100%" height="100%" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #ffffff;">
+  <rect width="750" height="420" fill="#ffffff" rx="8"/>
+  <text x="80" y="32" font-size="16" font-weight="700" fill="#0f172a">Candidate Degree Distribution: Feasible Options per Member</text>
+  <text x="80" y="50" font-size="12" fill="#64748b">Distribution of confirmed available candidates per participant under Day 30 observation</text>
+  <line x1="80" y1="350.0" x2="710" y2="350.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="354.0" font-size="11" fill="#64748b" text-anchor="end">0.0%</text>
+  <line x1="80" y1="294.0" x2="710" y2="294.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="298.0" font-size="11" fill="#64748b" text-anchor="end">14%</text>
+  <line x1="80" y1="238.0" x2="710" y2="238.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="242.0" font-size="11" fill="#64748b" text-anchor="end">29%</text>
+  <line x1="80" y1="182.0" x2="710" y2="182.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="186.0" font-size="11" fill="#64748b" text-anchor="end">44%</text>
+  <line x1="80" y1="126.0" x2="710" y2="126.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="130.0" font-size="11" fill="#64748b" text-anchor="end">58%</text>
+  <line x1="80" y1="70.0" x2="710" y2="70.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="74.0" font-size="11" fill="#64748b" text-anchor="end">73%</text>
+  <line x1="80" y1="70" x2="80" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="80" y1="350" x2="710" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="106.25" y="106.52173913043475" width="60" height="243.47826086956525" fill="#4338ca" rx="3">
+    <title>0 Candidates: 64.0%</title>
+  </rect>
+  <text x="136.25" y="100.52173913043475" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">64.0%</text>
+  <text x="136.25" y="368" font-size="11" fill="#334155" text-anchor="middle">0 Candidates</text>
+  <rect x="192.5" y="225.2173913043478" width="60" height="124.78260869565217" fill="#6366f1" rx="3">
+    <title>1 - 5 Candidates: 32.8%</title>
+  </rect>
+  <text x="222.5" y="219.2173913043478" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">32.8%</text>
+  <text x="222.5" y="368" font-size="11" fill="#334155" text-anchor="middle">1 - 5 Candidates</text>
+  <rect x="278.75" y="339.3478260869565" width="60" height="10.652173913043478" fill="#4338ca" rx="3">
+    <title>6 - 10 Candidates: 2.8%</title>
+  </rect>
+  <text x="308.75" y="333.3478260869565" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">2.8%</text>
+  <text x="308.75" y="368" font-size="11" fill="#334155" text-anchor="middle">6 - 10 Candidates</text>
+  <rect x="365.0" y="348.4782608695652" width="60" height="1.5217391304347827" fill="#6366f1" rx="3">
+    <title>11 - 20 Candidates: 0.4%</title>
+  </rect>
+  <text x="395.0" y="342.4782608695652" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">0.4%</text>
+  <text x="395.0" y="368" font-size="11" fill="#334155" text-anchor="middle">11 - 20 Candidates</text>
+  <rect x="451.25" y="350.0" width="60" height="0.0" fill="#4338ca" rx="3">
+    <title>21 - 50 Candidates: 0.0%</title>
+  </rect>
+  <text x="481.25" y="344.0" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">0.0%</text>
+  <text x="481.25" y="368" font-size="11" fill="#334155" text-anchor="middle">21 - 50 Candidates</text>
+  <rect x="537.5" y="350.0" width="60" height="0.0" fill="#6366f1" rx="3">
+    <title>51 - 100 Candidates: 0.0%</title>
+  </rect>
+  <text x="567.5" y="344.0" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">0.0%</text>
+  <text x="567.5" y="368" font-size="11" fill="#334155" text-anchor="middle">51 - 100 Candidates</text>
+  <rect x="623.75" y="350.0" width="60" height="0.0" fill="#4338ca" rx="3">
+    <title>101+ Candidates: 0.0%</title>
+  </rect>
+  <text x="653.75" y="344.0" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">0.0%</text>
+  <text x="653.75" y="368" font-size="11" fill="#334155" text-anchor="middle">101+ Candidates</text>
+  <text x="395.0" y="405" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Candidate Count Range</text>
+  <text transform="rotate(-90 22 210.0)" x="22" y="210.0" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Proportion of Members (%)</text>
+</svg>

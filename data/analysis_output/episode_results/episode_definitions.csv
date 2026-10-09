@@ -1,0 +1,9 @@
+concept,definition
+Episode,A matchmaking decision period represented by source dataset and assigned day.
+Cycle,One complete matchmaking cycle in which currently eligible people are considered for introductions and their resulting status is recorded.
+Introduction,A proposed connection between user A and user B.
+Waiting,An introduction whose response has not yet been observed. The member should not automatically be treated as available for another match.
+Resolved,An introduction for which a response or outcome has been observed.
+Response Time,Number of days between introduction assignment and the first recorded response.
+Candidate,A feasible person-to-person match satisfying the current matching constraints.
+N,Number of members for whom at least one feasible candidate is available.

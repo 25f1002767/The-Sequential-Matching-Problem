@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" width="100%" height="100%" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #ffffff;">
+  <rect width="780" height="520" fill="#ffffff" rx="8"/>
+  <text x="190" y="32" font-size="16" font-weight="700" fill="#0f172a">Field Missingness Audit: Hard Constraints vs. Soft Preferences</text>
+  <text x="190" y="50" font-size="12" fill="#64748b">Missing values represent uncertainty (UNKNOWN), never rejection; hard missingness locks edges</text>
+  <rect x="470" y="24" width="12" height="12" fill="#dc2626" rx="2"/>
+  <text x="488" y="34" font-size="11" fill="#334155">Hard Constraint</text>
+  <rect x="590" y="24" width="12" height="12" fill="#3b82f6" rx="2"/>
+  <text x="608" y="34" font-size="11" fill="#334155">Soft Preference</text>
+  <line x1="190.0" y1="70" x2="190.0" y2="470" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="190.0" y="488" font-size="11" fill="#64748b" text-anchor="middle">0%</text>
+  <line x1="292.0" y1="70" x2="292.0" y2="470" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="292.0" y="488" font-size="11" fill="#64748b" text-anchor="middle">20%</text>
+  <line x1="394.0" y1="70" x2="394.0" y2="470" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="394.0" y="488" font-size="11" fill="#64748b" text-anchor="middle">40%</text>
+  <line x1="496.0" y1="70" x2="496.0" y2="470" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="496.0" y="488" font-size="11" fill="#64748b" text-anchor="middle">60%</text>
+  <line x1="598.0" y1="70" x2="598.0" y2="470" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="598.0" y="488" font-size="11" fill="#64748b" text-anchor="middle">80%</text>
+  <line x1="700.0" y1="70" x2="700.0" y2="470" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="700.0" y="488" font-size="11" fill="#64748b" text-anchor="middle">100%</text>
+  <line x1="190" y1="70" x2="190" y2="470" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="180" y="91.14285714285715" font-size="11" fill="#1e293b" text-anchor="end">relationship_goal</text>
+  <rect x="190" y="76.15384615384616" width="307.785" height="21.978021978021978" fill="#3b82f6" rx="3">
+    <title>relationship_goal: 60.4% missing (SOFT PREFERENCE)</title>
+  </rect>
+  <text x="505.785" y="91.14285714285715" font-size="11" font-weight="600" fill="#334155">60.4%</text>
+  <text x="180" y="119.27472527472528" font-size="11" fill="#1e293b" text-anchor="end">emotional_availability</text>
+  <rect x="190" y="104.28571428571429" width="306.76500000000004" height="21.978021978021978" fill="#3b82f6" rx="3">
+    <title>emotional_availability: 60.1% missing (SOFT PREFERENCE)</title>
+  </rect>
+  <text x="504.76500000000004" y="119.27472527472528" font-size="11" font-weight="600" fill="#334155">60.1%</text>
+  <text x="180" y="147.4065934065934" font-size="11" fill="#1e293b" text-anchor="end">lifestyle</text>
+  <rect x="190" y="132.41758241758242" width="306.51" height="21.978021978021978" fill="#3b82f6" rx="3">
+    <title>lifestyle: 60.1% missing (SOFT PREFERENCE)</title>
+  </rect>
+  <text x="504.51" y="147.4065934065934" font-size="11" font-weight="600" fill="#334155">60.1%</text>
+  <text x="180" y="175.53846153846155" font-size="11" fill="#1e293b" text-anchor="end">relocate</text>
+  <rect x="190" y="160.54945054945057" width="306.25499999999994" height="21.978021978021978" fill="#3b82f6" rx="3">
+    <title>relocate: 60.0% missing (SOFT PREFERENCE)</title>
+  </rect>
+  <text x="504.25499999999994" y="175.53846153846155" font-size="11" font-weight="600" fill="#334155">60.0%</text>
+  <text x="180" y="203.67032967032966" font-size="11" fill="#1e293b" text-anchor="end">space_for_relationship</text>
+  <rect x="190" y="188.6813186813187" width="306.0" height="21.978021978021978" fill="#3b82f6" rx="3">
+    <title>space_for_relationship: 60.0% missing (SOFT PREFERENCE)</title>
+  </rect>
+  <text x="504.0" y="203.67032967032966" font-size="11" font-weight="600" fill="#334155">60.0%</text>
+  <text x="180" y="231.8021978021978" font-size="11" fill="#1e293b" text-anchor="end">relationship_pace</text>
+  <rect x="190" y="216.81318681318683" width="305.745" height="21.978021978021978" fill="#3b82f6" rx="3">
+    <title>relationship_pace: 60.0% missing (SOFT PREFERENCE)</title>
+  </rect>
+  <text x="503.745" y="231.8021978021978" font-size="11" font-weight="600" fill="#334155">60.0%</text>
+  <text x="180" y="259.9340659340659" font-size="11" fill="#1e293b" text-anchor="end">conversations</text>
+  <rect x="190" y="244.94505494505495" width="300.39" height="21.978021978021978" fill="#3b82f6" rx="3">
+    <title>conversations: 58.9% missing (SOFT PREFERENCE)</title>
+  </rect>
+  <text x="498.39" y="259.9340659340659" font-size="11" font-weight="600" fill="#334155">58.9%</text>
+  <text x="180" y="288.0659340659341" font-size="11" fill="#1e293b" text-anchor="end">schedule</text>
+  <rect x="190" y="273.0769230769231" width="164.22" height="21.978021978021978" fill="#dc2626" rx="3">
+    <title>schedule: 32.2% missing (HARD CONSTRAINT)</title>
+  </rect>
+  <text x="362.22" y="288.0659340659341" font-size="11" font-weight="600" fill="#334155">32.2%</text>
+  <text x="180" y="316.1978021978022" font-size="11" fill="#1e293b" text-anchor="end">age_min</text>
+  <rect x="190" y="301.20879120879124" width="162.69" height="21.978021978021978" fill="#dc2626" rx="3">
+    <title>age_min: 31.9% missing (HARD CONSTRAINT)</title>
+  </rect>
+  <text x="360.69" y="316.1978021978022" font-size="11" font-weight="600" fill="#334155">31.9%</text>
+  <text x="180" y="344.32967032967036" font-size="11" fill="#1e293b" text-anchor="end">partner_smoking</text>
+  <rect x="190" y="329.3406593406594" width="162.69" height="21.978021978021978" fill="#dc2626" rx="3">
+    <title>partner_smoking: 31.9% missing (HARD CONSTRAINT)</title>
+  </rect>
+  <text x="360.69" y="344.32967032967036" font-size="11" font-weight="600" fill="#334155">31.9%</text>
+  <text x="180" y="372.4615384615385" font-size="11" fill="#1e293b" text-anchor="end">acceptable_zones</text>
+  <rect x="190" y="357.47252747252753" width="162.69" height="21.978021978021978" fill="#dc2626" rx="3">
+    <title>acceptable_zones: 31.9% missing (HARD CONSTRAINT)</title>
+  </rect>
+  <text x="360.69" y="372.4615384615385" font-size="11" font-weight="600" fill="#334155">31.9%</text>
+  <text x="180" y="400.59340659340654" font-size="11" fill="#1e293b" text-anchor="end">who_to_meet</text>
+  <rect x="190" y="385.60439560439556" width="162.435" height="21.978021978021978" fill="#dc2626" rx="3">
+    <title>who_to_meet: 31.9% missing (HARD CONSTRAINT)</title>
+  </rect>
+  <text x="360.435" y="400.59340659340654" font-size="11" font-weight="600" fill="#334155">31.9%</text>
+  <text x="180" y="428.7252747252747" font-size="11" fill="#1e293b" text-anchor="end">relationship_structure</text>
+  <rect x="190" y="413.7362637362637" width="162.18" height="21.978021978021978" fill="#dc2626" rx="3">
+    <title>relationship_structure: 31.8% missing (HARD CONSTRAINT)</title>
+  </rect>
+  <text x="360.18" y="428.7252747252747" font-size="11" font-weight="600" fill="#334155">31.8%</text>
+  <text x="180" y="456.85714285714283" font-size="11" fill="#1e293b" text-anchor="end">age_max</text>
+  <rect x="190" y="441.86813186813185" width="161.16" height="21.978021978021978" fill="#dc2626" rx="3">
+    <title>age_max: 31.6% missing (HARD CONSTRAINT)</title>
+  </rect>
+  <text x="359.15999999999997" y="456.85714285714283" font-size="11" font-weight="600" fill="#334155">31.6%</text>
+  <text x="445.0" y="508" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Missingness Percentage (%)</text>
+</svg>

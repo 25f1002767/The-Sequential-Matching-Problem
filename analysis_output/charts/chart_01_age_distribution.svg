@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 420" width="100%" height="100%" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #ffffff;">
+  <rect width="750" height="420" fill="#ffffff" rx="8"/>
+  <text x="80" y="32" font-size="16" font-weight="700" fill="#0f172a">Participant Age Distribution (N = 2,000 Adults)</text>
+  <text x="80" y="50" font-size="12" fill="#64748b">Synthetic pool demographic breakdown across six standardized 5-year brackets</text>
+  <line x1="80" y1="350.0" x2="710" y2="350.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="354.0" font-size="11" fill="#64748b" text-anchor="end">0.0%</text>
+  <line x1="80" y1="294.0" x2="710" y2="294.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="298.0" font-size="11" fill="#64748b" text-anchor="end">4.6%</text>
+  <line x1="80" y1="238.0" x2="710" y2="238.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="242.0" font-size="11" fill="#64748b" text-anchor="end">9.2%</text>
+  <line x1="80" y1="182.0" x2="710" y2="182.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="186.0" font-size="11" fill="#64748b" text-anchor="end">13%</text>
+  <line x1="80" y1="126.0" x2="710" y2="126.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="130.0" font-size="11" fill="#64748b" text-anchor="end">18%</text>
+  <line x1="80" y1="70.0" x2="710" y2="70.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="74.0" font-size="11" fill="#64748b" text-anchor="end">22%</text>
+  <line x1="80" y1="70" x2="80" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="80" y1="350" x2="710" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="118.57142857142857" y="112.62395118230359" width="60" height="237.37604881769641" fill="#1e3a8a" rx="3">
+    <title>21-25: 19.45%</title>
+  </rect>
+  <text x="148.57142857142856" y="106.62395118230359" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">19.4%</text>
+  <text x="148.57142857142856" y="368" font-size="11" fill="#334155" text-anchor="middle">21-25</text>
+  <rect x="217.14285714285714" y="124.2181540808543" width="60" height="225.7818459191457" fill="#2563eb" rx="3">
+    <title>26-30: 18.5%</title>
+  </rect>
+  <text x="247.14285714285714" y="118.2181540808543" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">18.5%</text>
+  <text x="247.14285714285714" y="368" font-size="11" fill="#334155" text-anchor="middle">26-30</text>
+  <rect x="315.7142857142857" y="119.33638443935928" width="60" height="230.66361556064072" fill="#1e3a8a" rx="3">
+    <title>31-35: 18.9%</title>
+  </rect>
+  <text x="345.7142857142857" y="113.33638443935928" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">18.9%</text>
+  <text x="345.7142857142857" y="368" font-size="11" fill="#334155" text-anchor="middle">31-35</text>
+  <rect x="414.2857142857143" y="124.2181540808543" width="60" height="225.7818459191457" fill="#2563eb" rx="3">
+    <title>36-40: 18.5%</title>
+  </rect>
+  <text x="444.2857142857143" y="118.2181540808543" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">18.5%</text>
+  <text x="444.2857142857143" y="368" font-size="11" fill="#334155" text-anchor="middle">36-40</text>
+  <rect x="512.8571428571429" y="106.52173913043478" width="60" height="243.47826086956522" fill="#1e3a8a" rx="3">
+    <title>41-45: 19.95%</title>
+  </rect>
+  <text x="542.8571428571429" y="100.52173913043478" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">19.9%</text>
+  <text x="542.8571428571429" y="368" font-size="11" fill="#334155" text-anchor="middle">41-45</text>
+  <rect x="611.4285714285714" y="292.63920671243324" width="60" height="57.36079328756675" fill="#2563eb" rx="3">
+    <title>46-50: 4.7%</title>
+  </rect>
+  <text x="641.4285714285714" y="286.63920671243324" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">4.7%</text>
+  <text x="641.4285714285714" y="368" font-size="11" fill="#334155" text-anchor="middle">46-50</text>
+  <text x="395.0" y="405" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Age Brackets (Years)</text>
+  <text transform="rotate(-90 22 210.0)" x="22" y="210.0" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Proportion of Total Population (%)</text>
+</svg>

@@ -1,0 +1,11 @@
+source_dataset,total_members,members_with_candidate,average_candidate_count,members_without_candidate,candidate_percentage
+public_01,200,121,40.6,79,60.5
+public_02,200,136,47.93,64,68.0
+public_03,200,136,42.18,64,68.0
+public_04,200,140,54.31,60,70.0
+public_05,200,133,53.94,67,66.5
+public_06,200,122,41.88,78,61.0
+public_07,200,135,52.23,65,67.5
+public_08,200,130,48.47,70,65.0
+public_09,200,117,36.93,83,58.5
+public_10,200,131,46.3,69,65.5

@@ -1,0 +1,5 @@
+Metric,Value,Percentage,Interpretation
+Total Pair Combinations Evaluated,"199,000",100.0%,10 disjoint pools * (200 * 199 / 2) candidate edges
+Fully Feasible Pairs (Confirmed),987,0.50%,All 11 hard constraints verified in both directions with zero unobserved fields
+Uncertain Pairs (Needs Clarification),792,0.40%,"Zero hard violations observed so far, but at least 1 hard field is unasked"
+Confirmed Incompatible Pairs,"197,221",99.11%,"At least one reciprocal hard rule violated (gender, age, geography, etc.)"

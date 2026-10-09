@@ -1,0 +1,17 @@
+schedule,count
+,644
+weekend_day,171
+weekend_evening,160
+weekday_evening,149
+"weekend_day, weekend_evening, weekday_evening",83
+"weekend_evening, weekend_day",81
+"weekday_evening, weekend_evening",80
+"weekend_evening, weekday_evening",78
+"weekend_day, weekend_evening",77
+"weekday_evening, weekend_day",77
+"weekday_evening, weekend_day, weekend_evening",76
+"weekend_evening, weekday_evening, weekend_day",69
+"weekend_evening, weekend_day, weekday_evening",68
+"weekend_day, weekday_evening",65
+"weekend_day, weekday_evening, weekend_evening",63
+"weekday_evening, weekend_evening, weekend_day",59

@@ -1,0 +1,3 @@
+group,average_missing_percentage,min_missing_percentage,max_missing_percentage,critical_insight
+Hard Constraints (11 Fields),31.76,31.5,32.2,"Reciprocal eligibility requires all 11 fields across BOTH partners (22 checks). If any single field is unobserved, the candidate edge is locked as uncertain."
+Soft Preferences (7 Fields),59.93,58.9,60.35,"Soft fields provide signal for mutual acceptance and MSMI, but high missingness requires Laplacian smoothing and UCB exploration bonuses."

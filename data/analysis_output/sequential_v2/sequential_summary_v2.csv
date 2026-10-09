@@ -1,0 +1,2 @@
+total_episode_rows,total_available_member_episode_rows,N_members_with_at_least_one_feasible_candidate,members_with_zero_candidates,N_percentage,total_pair_decisions_evaluated,selected_match_baseline,introduction_records,matched_introductions,rejected_introductions,waiting_or_expired_introductions,mean_response_time_days,median_response_time_days
+341,53363,8573,44790,16.07,7213,3427,613,84,365,164,3.28,3.0

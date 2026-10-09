@@ -1,0 +1,10 @@
+failure_reason,occurrence_count,percentage_of_incompatible_pairs,rule_type
+relationship_structure,125114,63.44,Reciprocal Filter
+gender_preference,116788,59.22,Reciprocal Filter
+geography,98832,50.11,Reciprocal Filter
+age_over_max,76627,38.85,Reciprocal Filter
+age_under_min,74522,37.79,Reciprocal Filter
+smoking,21929,11.12,Reciprocal Filter
+children_plans,21742,11.02,Reciprocal Filter
+schedule,15056,7.63,Reciprocal Filter
+children_present,13449,6.82,Reciprocal Filter

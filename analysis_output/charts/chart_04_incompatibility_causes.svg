@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 420" width="100%" height="100%" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #ffffff;">
+  <rect width="750" height="420" fill="#ffffff" rx="8"/>
+  <text x="80" y="32" font-size="16" font-weight="700" fill="#0f172a">Primary Causes of Hard Reciprocal Incompatibility</text>
+  <text x="80" y="50" font-size="12" fill="#64748b">Breakdown of rule failures across 199,000 pair-level combinations</text>
+  <line x1="80" y1="350.0" x2="710" y2="350.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="354.0" font-size="11" fill="#64748b" text-anchor="end">0.0%</text>
+  <line x1="80" y1="294.0" x2="710" y2="294.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="298.0" font-size="11" fill="#64748b" text-anchor="end">14%</text>
+  <line x1="80" y1="238.0" x2="710" y2="238.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="242.0" font-size="11" fill="#64748b" text-anchor="end">29%</text>
+  <line x1="80" y1="182.00000000000003" x2="710" y2="182.00000000000003" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="186.00000000000003" font-size="11" fill="#64748b" text-anchor="end">43%</text>
+  <line x1="80" y1="126.00000000000003" x2="710" y2="126.00000000000003" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="130.00000000000003" font-size="11" fill="#64748b" text-anchor="end">58%</text>
+  <line x1="80" y1="70.0" x2="710" y2="70.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="70" y="74.0" font-size="11" fill="#64748b" text-anchor="end">72%</text>
+  <line x1="80" y1="70" x2="80" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="80" y1="350" x2="710" y2="350" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="118.57142857142857" y="106.52173913043475" width="60" height="243.47826086956525" fill="#dc2626" rx="3">
+    <title>Relationship Structure: 63.44%</title>
+  </rect>
+  <text x="148.57142857142856" y="100.52173913043475" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">63.4%</text>
+  <text x="148.57142857142856" y="368" font-size="11" fill="#334155" text-anchor="middle">Relationship Structure</text>
+  <rect x="217.14285714285714" y="122.71780251110255" width="60" height="227.28219748889745" fill="#ea580c" rx="3">
+    <title>Gender Preference: 59.22%</title>
+  </rect>
+  <text x="247.14285714285714" y="116.71780251110255" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">59.2%</text>
+  <text x="247.14285714285714" y="368" font-size="11" fill="#334155" text-anchor="middle">Gender Preference</text>
+  <rect x="315.7142857142857" y="157.6813421788475" width="60" height="192.3186578211525" fill="#dc2626" rx="3">
+    <title>Geography: 50.11%</title>
+  </rect>
+  <text x="345.7142857142857" y="151.6813421788475" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">50.1%</text>
+  <text x="345.7142857142857" y="368" font-size="11" fill="#334155" text-anchor="middle">Geography</text>
+  <rect x="414.2857142857143" y="200.89643072536867" width="60" height="149.10356927463133" fill="#ea580c" rx="3">
+    <title>Age Over Max: 38.85%</title>
+  </rect>
+  <text x="444.2857142857143" y="194.89643072536867" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">38.9%</text>
+  <text x="444.2857142857143" y="368" font-size="11" fill="#334155" text-anchor="middle">Age Over Max</text>
+  <rect x="512.8571428571429" y="204.96463621909095" width="60" height="145.03536378090905" fill="#dc2626" rx="3">
+    <title>Age Under Min: 37.79%</title>
+  </rect>
+  <text x="542.8571428571429" y="198.96463621909095" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">37.8%</text>
+  <text x="542.8571428571429" y="368" font-size="11" fill="#334155" text-anchor="middle">Age Under Min</text>
+  <rect x="611.4285714285714" y="307.322221613027" width="60" height="42.677778386972975" fill="#ea580c" rx="3">
+    <title>Smoking: 11.12%</title>
+  </rect>
+  <text x="641.4285714285714" y="301.322221613027" font-size="11" font-weight="600" fill="#1e293b" text-anchor="middle">11.1%</text>
+  <text x="641.4285714285714" y="368" font-size="11" fill="#334155" text-anchor="middle">Smoking</text>
+  <text x="395.0" y="405" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Constraint Rule Violated</text>
+  <text transform="rotate(-90 22 210.0)" x="22" y="210.0" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Share of Incompatible Pairs (%)</text>
+</svg>

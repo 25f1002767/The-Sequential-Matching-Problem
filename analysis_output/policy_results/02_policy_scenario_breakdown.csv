@@ -1,0 +1,25 @@
+Policy,Scenario Family,MSMI per 100,Coverage,Mutual Acceptances / 100,Ask Cost,Inference Latency (sec)
+V2.2 Policy,cold_start,0.5,37.0,5.0,246.0,26.84
+V2.2 Policy,delayed,0.5,40.2,7.0,188.4,19.77
+V2.2 Policy,development,0.4,40.6,7.0,188.4,16.22
+V2.2 Policy,drift,0.4,40.6,6.5,188.4,15.83
+V2.2 Policy,shift,0.4,40.7,6.1,188.4,15.85
+V2.2 Policy,sparse,0.0,13.9,0.9,184.2,17.44
+Greedy Baseline,cold_start,0.4,37.0,5.2,246.0,29.61
+Greedy Baseline,delayed,0.3,40.2,6.1,188.4,26.05
+Greedy Baseline,development,0.5,40.3,6.2,188.4,28.92
+Greedy Baseline,drift,0.5,40.3,5.9,188.4,23.27
+Greedy Baseline,shift,0.4,40.4,5.9,188.4,29.79
+Greedy Baseline,sparse,0.1,13.9,1.8,184.2,27.81
+Random Baseline,cold_start,0.2,36.8,5.5,246.0,17.86
+Random Baseline,delayed,0.3,40.8,6.4,188.4,17.49
+Random Baseline,development,0.3,40.9,5.7,188.4,19.66
+Random Baseline,drift,0.3,40.9,5.4,188.4,29.47
+Random Baseline,shift,0.4,40.6,5.8,188.4,24.65
+Random Baseline,sparse,0.1,13.9,1.7,184.2,18.69
+No-Asks Baseline,cold_start,0.1,9.1,1.0,0.0,23.75
+No-Asks Baseline,delayed,0.2,17.2,2.8,0.0,19.53
+No-Asks Baseline,development,0.3,17.2,2.6,0.0,20.74
+No-Asks Baseline,drift,0.3,17.2,2.6,0.0,19.1
+No-Asks Baseline,shift,0.2,17.3,2.5,0.0,19.7
+No-Asks Baseline,sparse,0.0,4.5,0.4,0.0,25.49

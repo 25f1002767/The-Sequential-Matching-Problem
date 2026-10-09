@@ -1,0 +1,13 @@
+Metric,Value,Category,Meaning
+Total Benchmark Datasets,10,Overview,Independent simulation worlds (public_01 to public_10)
+Total Member Profiles,"2,000",Population,Total synthetic adult individuals across all pools
+Unique Member IDs,"2,000",Integrity,Zero duplicate member IDs across all pools
+Duplicate Member Rows,0,Integrity,No duplicated participant profiles detected
+Questionnaire Records,"2,000",Questionnaires,Initial self-reported response sheets
+Historical Introductions,613,Interactions,Proposed pairings logged up to Day 30
+Observed Feedback Events,"1,270",Interactions,Acceptance / rejection / timeout events
+Conversation Records,"1,129",Interactions,Authored transcripts for soft trait discovery
+Hard Constraint Fields,11,Schema,Strict blocking reciprocal criteria
+Soft Preference Fields,7,Schema,Non-blocking compatibility scoring traits
+Daily Clarification Budget,12 units/day,Protocol,"Budget to query unobserved fields (3/bundle, 1/soft)"
+Simulation Decision Horizon,60 Days,Protocol,Active introduction window (40-day follow-up)
